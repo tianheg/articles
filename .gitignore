@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Hugo
+resources/
+public/
+
+# Yarn v2
+.yarn/*
+.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# .obsidian
+content/posts/.obsidian
+
+# vscode
+.vscode
+.devcontainer
+
+# gitpod
+.theia
+
+# default
+.env
