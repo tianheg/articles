@@ -224,6 +224,8 @@ fCC JavaScript
 
 ### `article`
 
+它表示文档、页面、应用或站点中的一个自包围部分，这些应用的地方是可配置且可复用的。
+
 ### `section`
 
 ### `time`
@@ -259,7 +261,27 @@ fCC JavaScript
   ```
 
 - 对于标题标签 `hx`，数字越小越往前，顺序不能颠倒；而且不能间隔使用：`h2` 后不能直接接 `h4`，要按顺序接 `h3`。如果担心大小，可通过 CSS 设置相对大小；`h1` 是必须存在的一个元素，它在一个页面只能有一个，它是你内容的主题。标题标签还被用于帮助搜索引擎理解页面的内容。
-- _Semantic meaning_ 意味着你使用的标签呢个能够暗示它包含的信息的种类
+- _Semantic meaning_ 意味着你使用的标签能够暗示它包含的信息的种类
+- `tabindex` 有 3 个独特的作用：当它在标签上时，表明该元素可以被关注。该值（正，负或零的整数）确定行为。它还可被用于 `div`，`span`，`p`，通过在上面放置 `tabindex="0"`。注意：当 `tabindex` 被设为负值，这表示被设置元素是可关注的，但无法通过键盘访问。这种方法通常用于以编程方式将焦点移到内容上（像当用于弹窗的 `div` 被激活时）
+- 把 `radio` 放在 `fieldset` 中可以改善无障碍访问
+
+  ```html
+  <form>
+    <fieldset>
+      <legend>Choose one of these three items:</legend>
+      <input id="one" type="radio" name="items" value="one">
+      <label for="one">Choice One</label><br>
+      <input id="two" type="radio" name="items" value="two">
+      <label for="two">Choice Two</label><br>
+      <input id="three" type="radio" name="items" value="three">
+      <label for="three">Choice Three</label>
+    </fieldset>
+  </form>
+  ```
+
+## 名词解释
+
+- Accessibility 无障碍访问（In web development, accessibility refers to web content and a UI (user interface) that can be understood, navigated, and interacted with by a broad audience. This includes people with visual, auditory, mobility, or cognitive disabilities.）
 
 ---
 
