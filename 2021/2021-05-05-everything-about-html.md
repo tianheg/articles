@@ -87,7 +87,6 @@
 `alt` 描述图片内容，并提供可选文本。它可以应对图片加载失败或者无法被用户看见的情况。它也能让搜索引擎知道一张图片里包含了什么。
 
 HTML5 引入了新的 `figure` 和与它相关的 `figcaption`，它们可以一起展示可视化的事物（像图像、图表），包裹这些元素能够能够提供双层可访问性加速，通过语义地对相关内容进行分组并提供一个可选文本解释 `figure`。对于数据可视化，像图表，说明可以被用来为有视觉障碍的用户简短地提示趋势或结论。使用它面临的另一个挑战：如何为读屏读者移动脱离屏幕的表格数据</a>
-```
 
 在进行图片的显示大小设置时，可以只设置一个（width 或 height），之后 HTML 会自动把没有设置的那一个按图片比例调整到合适大小。adjust the aspect ratio for you（为你调整长宽比）。
 
@@ -294,6 +293,3 @@ fCC JavaScript
 1. [Basic HTML and HTML5 - freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5)
 2. [HTML Full Course - Build a Website Tutorial](https://youtu.be/pQN-pnXPaVg)
 3. [HTML Tutorial - W3Schools](https://www.w3schools.com/html/default.asp)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mjg5MDQxMV19
--->
