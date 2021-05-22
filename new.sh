@@ -1,2 +1,5 @@
 #!/bin/bash
-touch 2021/"$(date +"%F")-沉思录210522.md" && code $_
+
+echo -n 'Enter the Article Name: '
+read -r a
+touch 2021/"$(date +"%F")-$a.md" && code $_
