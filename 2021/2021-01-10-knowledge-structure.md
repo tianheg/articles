@@ -1,10 +1,4 @@
----
-title: "构建知识体系"
-date: 2021-01-10T10:59:20+08:00
-description: "构建自己的知识体系"
-tags: ["知识体系"]
-keywords: ["体系", "知识", "构建", "Wiki", "Note", "Blog"]
----
+# 构建知识体系
 
 我需要一个「[知识体系](/tags/知识体系)」，帮助我获取外界的信息，整合归纳信息，构建一个可复用的知识结构。
 
@@ -68,6 +62,10 @@ Hugo 构建，主要记录生活随笔，想写些深度技术内容。
 - 文字类反馈，写作笔记的一个方法，用自己的话表达别人的你认为的好的内容。写 summary
 - 书籍是最好的获取信息的方式，这是我目前认为的适合我的信息获取方式。
 - 追求极简，纯文本保存，可多平台迁移（如果某种格式只能使用在某个平台，绝对不使用此格式保存我的知识体系内容）
+- 不要死扣细节
+- 尽早尝试开发完整的项目
+- 看问题，要看本质
+- 勤动手，多总结
 
 ## 别人做笔记的思路
 
@@ -214,3 +212,4 @@ My thinking/process is basically:
 17. <https://github.com/brennanbrown/enjoyment-work>
 18. <https://github.com/Mint-System/Knowledge/>
 19. [建立知识体系，这份指南就够了](https://github.com/tianheg/articles/blob/main/docs/book/%E5%BB%BA%E7%AB%8B%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB%EF%BC%8C%E8%BF%99%E4%BB%BD%E6%8C%87%E5%8D%97%E5%B0%B1%E5%A4%9F%E4%BA%86.md)
+20. <https://github.com/rbew/share/blob/master/%E5%88%9B%E5%BB%BA%E7%9F%A5%E8%AF%86%E4%BD%93%E7%B3%BB.md>
