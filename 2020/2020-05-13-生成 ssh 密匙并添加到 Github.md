@@ -1,10 +1,4 @@
----
-title: "生成 ssh 密匙并添加到 Github"
-date: 2020-05-13T21:55:40+08:00
-description: "记录如何生成 ssh 密匙，并添加到 GitHub"
-tags: ["Git"]
-keywords: ["Git"]
----
+# 生成 ssh 密匙并添加到 Github
 
 ## 生成新 SSH 密钥并添加到 ssh-agent
 
